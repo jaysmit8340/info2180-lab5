@@ -1,1 +1,79 @@
 /* Add your own styles */
+html{
+	font-size:18px;
+	color:#2D3748;
+	font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans", sans-serif;
+}
+
+body {
+    background: #F5F5F5;
+    max-height: 100%;
+    margin:0;
+    padding:0;
+
+}
+
+header{
+    background-color: #2D3748;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+main .container{
+    display: flex;
+    flex-direction: column;
+}
+
+main input{
+    width: 30em;
+    height: 2em;
+    border-radius: 5px;
+    border: #FFFFFF 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-top: 5px;
+}
+
+#lookup{
+    color: #FFFFFF;
+    background-color: #5deca9;
+    border-color: #5899eb;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 6px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left:25px;
+}
+
+#lookupCit{
+    color: #FFFFFF;
+    background-color: #5d96ec;
+    border-color: #5899eb;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 6px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left:25px;
+}
